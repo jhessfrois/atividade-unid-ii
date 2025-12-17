@@ -10,6 +10,14 @@
     <header>
       <div class="container header-content">
         <h1>TechStore</h1>
+        <div class="header-actions">
+          <button id="btn-tema">🌙</button>
+
+          <button id="btn-carrinho">
+            🛒<span id="contador-carrinho">0</span>
+          </button>
+        </div>
+
         <nav>
           <ul class="menu">
             <li><a href="#">Início</a></li>
@@ -27,7 +35,7 @@
         <div class="grid-produtos">
           <article class="card-produto">
             <img
-              src="assets/headphone pro.jpg"
+              src="assets/headphone pro.png"
               alt="Foto de um Headphone Bluetooth preto"
             />
             <div class="info-produto">
@@ -40,7 +48,7 @@
 
           <article class="card-produto">
             <img
-              src="assets/smartwatch z.jpg"
+              src="assets/smartwatch z.png"
               alt="Foto de um Smartwatch com pulseira preta"
             />
             <div class="info-produto">
@@ -53,7 +61,7 @@
 
           <article class="card-produto">
             <img
-              src="assets/camera 4k.jpg"
+              src="assets/camera 4k.png"
               alt="Foto de uma Câmera Fotográfica compacta"
             />
             <div class="info-produto">
@@ -66,7 +74,7 @@
 
           <article class="card-produto">
             <img
-              src="assets/teclado e mouse sem fio.jpg"
+              src="assets/teclado e mouse sem fio.png"
               alt="Foto de uma Câmera Fotográfica compacta"
             />
             <div class="info-produto">
@@ -79,7 +87,7 @@
 
           <article class="card-produto">
             <img
-              src="assets/monitor.jpg"
+              src="assets/monitor.png"
               alt="Foto de um Monitor LED widescreen"
             />
             <div class="info-produto">
@@ -92,7 +100,7 @@
 
           <article class="card-produto">
             <img
-              src="assets/microfone de mesa.jpg"
+              src="assets/microfone de mesa.png"
               alt="Foto de uma Câmera Fotográfica compacta"
             />
             <div class="info-produto">
@@ -106,11 +114,31 @@
       </section>
     </main>
 
+    <div id="modal-carrinho" class="modal-container hidden">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Seu Carrinho</h2>
+          <button id="fechar-carrinho">X</button>
+        </div>
+        <div id="itens-carrinho">
+          <p>Seu carrinho está vazio.</p>
+        </div>
+        <div class="modal-footer">
+          <h3>Total: <span id="total-carrinho">R$ 0,00</span></h3>
+          <button id="finalizar-compra">Finalizar Compra</button>
+        </div>
+      </div>
+    </div>
+
     <footer>
       <div class="container">
-        <p>&copy; 2025 TechStore. Todos os direitos reservados.</p>
+        <p>
+          &copy; <span id="data-atual"></span> TechStore. Todos os direitos
+          reservados.
+        </p>
         <p>Rua Exemplo, 123 - Cidade Tech/SP</p>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

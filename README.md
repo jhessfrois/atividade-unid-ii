@@ -3,7 +3,7 @@
 </p> 
 
 <p align="center">
-Atividade referente à Unidade II de Modern Web.
+Atividade referente à Unidade II e III de Modern Web.
 </p>
 
 <p align="center">
@@ -24,7 +24,13 @@ Atividade referente à Unidade II de Modern Web.
   <img alt="Preview do projeto desenvolvido." src="https://i.imgur.com/gQ02jiZ.png" width="50%">
 </p>
 
-> Atividade realizada no dia 14 de Dezembro de 2025
+<p align="center">
+  <img alt="Preview do projeto desenvolvido." src="https://i.imgur.com/sxmlLqM.jpeg" width="80%">
+  <img alt="Preview do projeto desenvolvido." src="https://i.imgur.com/1xFzfaA.png" width="50%">
+</p>
+
+> Atividade realizada no dia 14 de Dezembro de 2025 <br>
+> Atualizada no dia 17 de Dezembro de 2025 para atividade da Unidade III
 
 ## 🚀 Linguagens
 
@@ -32,19 +38,35 @@ Essa atividade foi realizada com as seguintes linguagens:
 
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 - ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 
 ## 📖 Atividades
 
 ### 🛒 TechStore - Interface de E-commerce
 
-Este projeto consiste na criação da interface frontal (Front-end) de uma loja virtual simples.
+Este projeto consiste no desenvolvimento de uma interface de loja virtual interativa. Inicialmente criado com foco em HTML Semântico e CSS, o projeto evoluiu para incluir funcionalidades dinâmicas com JavaScript, simulando uma experiência real de compra.
 
 ### ✨ Funcionalidades
 
-* **Design Responsivo:** A grade de produtos se adapta automaticamente a diferentes tamanhos de tela (desktop e mobile) utilizando `grid-template-columns` e `gap`.
-* **Acessibilidade:** Uso de atributos `alt` nas imagens e contraste adequado de cores para facilitar a leitura.
-* **Organização:** Código limpo e separado em arquivos de estrutura (`index.html`) e estilo (`style.css`).
+### 🎨 Interface e Design
+* **Design Responsivo:** A grade de produtos se adapta automaticamente a celulares e desktops.
+* **Tema Claro/Escuro (Dark Mode):** Botão para alternar entre modos de visualização, alterando cores de fundo e texto dinamicamente.
+* **Acessibilidade:** Uso de contraste adequado e atributos `alt` nas imagens.
+
+### ⚙️ Funcionalidades Dinâmicas (JavaScript)
+* **Carrinho de Compras Funcional:**
+    * **Adicionar Itens:** Ao clicar em "Comprar", o produto é salvo em um array (lista) no JavaScript.
+    * **Contador em Tempo Real:** O ícone do carrinho no menu atualiza o número de itens instantaneamente.
+    * **Cálculo Automático:** O valor total da compra é somado e exibido formatado (R$).
+* **Modal Interativo:** O carrinho abre em uma janela sobreposta (modal) ao invés de carregar outra página.
+* **Data Dinâmica:** O rodapé exibe o ano atual automaticamente.
+
+## 📂 Estrutura dos Arquivos
+
+* `index.html`: Estrutura da página e conteúdo.
+* `style.css`: Estilização visual, layout e tema escuro.
+* `script.js`: Toda a lógica do carrinho, tema e interações.
 
 ---
 Desenvolvido como atividade prática de estudos.
